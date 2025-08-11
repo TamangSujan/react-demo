@@ -1,0 +1,20 @@
+.input {
+    padding: 0.65em;
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+}
+
+.input::placeholder {
+    color: #AAAAAA;
+    font-size: 0.85em;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: 0.65em;
+}
+
+.padding{
+    width: 100%;
+}

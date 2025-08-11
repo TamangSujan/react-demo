@@ -1,0 +1,42 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal{
+    display: flex;
+    column-gap: 0.8em;
+}
+
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.8em;
+    width: 100%;
+}
+
+.flex-start-horizontal{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.4em;
+}
+
+.flex-start-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    row-gap: 0.4em;
+}
